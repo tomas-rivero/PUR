@@ -1,0 +1,66 @@
+import { motion } from 'framer-motion';
+import { Container, Row, Col, Image } from 'react-bootstrap';
+
+export const CompFooter = () => {
+    const boxVariant = {
+        opacityClear: {
+            opacity: 0,
+        },
+        opacityDone: {
+            opacity: 1,
+            transition: {
+                type: "spring",
+                duration: 3
+            }
+        }
+    }
+
+    return (
+        <footer className="bg-dark py-3">
+
+            <motion.div
+                variants={boxVariant}
+                initial="opacityClear"
+                whileInView="opacityDone"
+                viewport={{ once: false }}>
+                <Container>
+                    <Row className="justify-content-md-center align-items-center text-center">
+                        <Col xs={3} className='fw-semibold'>
+                            <Row>
+                                <Col xs={4}>
+                                    <a href="https://www.instagram.com/somospur/">
+                                        <Image src="../img/social/instagram.png" alt="" width={40} className='btn btn-instagram p-2' roundedCircle />
+                                    </a>
+
+                                </Col>
+                                <Col xs={4}>
+                                    <a href="https://www.facebook.com/purosario">
+                                        <Image src="../img/social/facebook.png" alt="" width={40} className='btn btn-facebook p-2' roundedCircle />
+                                    </a>
+                                </Col>
+                                <Col xs={4}>
+                                    <a href="https://www.youtube.com/@pastoralrosario">
+                                        <Image src="../img/social/youtube.png" alt="" width={40} className='btn btn-youtube p-2' roundedCircle />
+                                    </a>
+                                </Col>
+                            </Row>
+                            <img src='../img/logopur3.png' className='imgPurFooter m-2' />
+
+                            <figcaption className="textFooter text-white-50">Sitio oficial de la Pastoral Universitaria de Rosario</figcaption>
+
+                        </Col>
+                    </Row>
+                </Container>
+                <hr className="text-white-50" />
+                <Container>
+                    <Row className="justify-content-md-center align-items-center text-center">
+
+                        <figcaption className="textFooter text-white-50">©2024 Todos los derechos reservados.</figcaption>
+                    </Row>
+                </Container>
+
+            </motion.div>
+
+        </footer>
+    )
+}
