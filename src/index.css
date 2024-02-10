@@ -75,7 +75,7 @@
 }
 
 .imgDiv {
-  background-image: url('./img/first.jpg ');
+  background-image: url('../img/first.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -83,7 +83,7 @@
   height: 100vh;
 }
 .imgDivPantaleon {
-  background-image: url('./img/sanpantaleon.jpg ');
+  background-image: url('../img/sanpantaleon.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -91,7 +91,7 @@
   height: 100vh;
 }
 .imgDivMo {
-  background-image: url('./img/5.jpg ');
+  background-image: url('../img/5.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;

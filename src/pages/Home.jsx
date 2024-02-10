@@ -38,7 +38,7 @@ export const Home = () => {
             <div className='containerAll'>
                 <motion.div initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
-                    transition={{ duration: 3 }}>
+                    transition={{ duration: 1 }}>
 
                     <Element name="home">
                         <section>

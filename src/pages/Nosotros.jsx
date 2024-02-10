@@ -41,7 +41,7 @@ export const Nosotros = () => {
             <div className='containerAll'>
                 <motion.div initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
-                    transition={{ duration: 3 }}
+                    transition={{ duration: 1 }}
                 >
                     <Container>
                         <div className='pt-4'>
