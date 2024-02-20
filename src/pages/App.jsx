@@ -1,15 +1,24 @@
 import { Route, Routes, useLocation } from "react-router-dom"
-import { Pantaleon, NotFound, Home } from "./"
-import { CompNavbar } from "../components/CompNavbar";
-import { ManosalaObra } from "./ManosalaObra";
-import { Nosotros } from "./Nosotros";
-import { CompFooter } from "../components/CompFooter";
+import { Pantaleon, NotFound, Home, ManosalaObra, AreasEquipos } from "./"
+import { CompFooter, CompNavbar } from "../components";
 import { LazyMotion, domAnimation, m } from "framer-motion"
+import { Sociales, Salud, Ecopuring, AyD } from "./areas";
 
 export const App = () => {
 
   const location = useLocation();
-  const validRoutes = ["/", "/sanpantaleon", "/manosalaobra", "/pur/nosotros"];
+  const validRoutes =
+    ["/",
+      "/sanpantaleon",
+      "/manosalaobra",
+      "/pur/equipos",
+      "/areas/sociales",
+      "/areas/salud",
+      "/areas/ecopuring",
+      "/areas/arteydisenio",
+      "equipos/comunicacion"
+    ];
+
   const isNavbarVisible = validRoutes.includes(location.pathname);
 
   return (
@@ -19,14 +28,23 @@ export const App = () => {
 
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/pur/nosotros' element={<Nosotros />} />
-          <Route path='/pur/integrantes' element={<Home />} />
+
+          <Route path='areas/sociales' element={<Sociales />} />
+          <Route path='areas/ecopuring' element={<Ecopuring />} />
+          <Route path='areas/arteydisenio' element={<AyD />} />
+          <Route path='areas/salud' element={<Salud />} />
+
+          <Route path='/pur/equipos' />
+
+
           <Route path='/sanpantaleon' element={<Pantaleon />} />
           <Route path='/manosalaobra' element={<ManosalaObra />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
 
-        <CompFooter />
+        {isNavbarVisible && <CompFooter />}
+
+
       </m.div>
 
     </LazyMotion>
