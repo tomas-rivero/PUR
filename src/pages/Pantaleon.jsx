@@ -241,7 +241,7 @@ export const Pantaleon = () => {
               </section>
             </Element>
 
-            <div className='text-center py-4'>
+            <div className='text-center py-5'>
               <img width="30" height="30" src="./img/whiteRosary.png" alt="white-rosary" />
             </div>
 

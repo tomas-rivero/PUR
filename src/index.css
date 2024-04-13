@@ -112,8 +112,22 @@
   background-image: url('../img/areas/AyD.jpg');
 }
 
+.backgroundEcopuring {
+  background-image: url('../img/areas/ecopuring.jpg');
+}
+
+.backgroundSalud {
+  background-image: url('../img/areas/salud.jpg');
+}
+
 .backgroundSociales {
   background-image: url('../img/areas/sociales.jpg');
+}
+
+.svgSocialFloat {
+  position: absolute;
+  top: 12rem;
+  right: 5rem;
 }
 
 .imgDivText {
@@ -124,6 +138,50 @@
   font-size: 5vw;
   color: #fff;
   font-weight: 300;
+}
+.list-group-item {
+  background-color: transparent !important;
+  color: #fff;
+}
+
+.borderSociales {
+  border: 3px solid #a1e5f1;
+  transition: 0.5s;
+  font-weight: 600;
+}
+.borderSociales:hover {
+  background: #a1e5f1;
+  color: var(--mainColor);
+}
+
+.borderEcopuring {
+  border: 3px solid #f64740;
+  transition: 0.5s;
+  font-weight: 600;
+}
+.borderEcopuring:hover {
+  background: #f64740;
+  color: var(--mainColor);
+}
+
+.borderSalud {
+  border: 3px solid #9ede91;
+  transition: 0.5s;
+  font-weight: 600;
+}
+.borderSalud:hover {
+  background: #9ede91;
+  color: var(--mainColor);
+}
+
+.borderAyD {
+  border: 3px solid #f7b2ad;
+  transition: 0.5s;
+  font-weight: 600;
+}
+.borderAyD:hover {
+  background: #f7b2ad;
+  color: var(--mainColor);
 }
 
 @media screen and (max-width: 768px) {
@@ -363,7 +421,7 @@ circle {
 }
 
 .parallax {
-  background-image: url('../img/4.jpg');
+  background-image: url('../img/8.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

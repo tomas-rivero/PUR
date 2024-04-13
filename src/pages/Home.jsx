@@ -122,7 +122,7 @@ export const Home = () => {
 
                         <div>
                             <section className='text-white mt-3'>
-                                <h1 className='text-center'>¿Quienes somos?</h1>
+                                <h1 className='text-center pb-4'>¿Quienes somos?</h1>
                                 <Row>
                                     <Col xs={12} md={12} lg={6}>
                                         <div className='lh-lg'>
@@ -195,7 +195,7 @@ export const Home = () => {
                                         <div className="card mb-3 cardBackground text-white border-5">
                                             <Row className='g-0'>
                                                 <Col xs={4} sm={4} lg={4} >
-                                                    <img src="../img/lourdes.jpg" className="img-fluid rounded-start" alt="..." />
+                                                    <img src="../img/santos/lourdes.jpg" className="img-fluid rounded-start" alt="..." />
                                                 </Col>
                                                 <Col xs={8} sm={8} lg={8}>
                                                     <div className="card-body">
@@ -221,7 +221,7 @@ export const Home = () => {
                                         <div className="card mb-3 cardBackground text-white border-5">
                                             <Row className='g-0'>
                                                 <Col xs={4} sm={4} lg={4}>
-                                                    <img src="../img/chiara.jpg" className="img-fluid rounded-start" alt="..." />
+                                                    <img src="../img/santos/chiara.jpg" className="img-fluid rounded-start" alt="..." />
                                                 </Col>
                                                 <Col xs={8} sm={8} lg={8}>
                                                     <div className="card-body">
@@ -246,7 +246,7 @@ export const Home = () => {
                                         <div className="card mb-3 cardBackground text-white border-5">
                                             <Row className='g-0'>
                                                 <Col xs={4} sm={4} lg={4}>
-                                                    <img src="../img/tomasaquino.jpg" className="img-fluid rounded-start" alt="..." />
+                                                    <img src="../img/santos/tomasaquino.jpg" className="img-fluid rounded-start" alt="..." />
                                                 </Col>
                                                 <Col xs={8} sm={8} lg={8}>
                                                     <div className="card-body">
@@ -271,7 +271,7 @@ export const Home = () => {
                                         <div className="card mb-3 cardBackground text-white border-5 icon-link-hover">
                                             <Row className='g-0'>
                                                 <Col xs={4} sm={4} lg={4}>
-                                                    <img src="../img/sanpantaleonimage.jpg" className="img-fluid rounded-start" alt="..." />
+                                                    <img src="../img/santos/sanpantaleonimage.jpg" className="img-fluid rounded-start" alt="..." />
                                                 </Col>
                                                 <Col xs={8} sm={8} lg={8}>
                                                     <div className="card-body">
@@ -295,7 +295,7 @@ export const Home = () => {
                                         <div className="card mb-3 cardBackground text-white border-5 icon-link-hover">
                                             <Row className='g-0'>
                                                 <Col xs={4} sm={4} lg={4}>
-                                                    <img src="../img/jpii.jpg" className="img-fluid rounded-start" alt="..." />
+                                                    <img src="../img/santos/jpii.jpg" className="img-fluid rounded-start" alt="..." />
                                                 </Col>
                                                 <Col xs={8} sm={8} lg={8}>
                                                     <div className="card-body">
@@ -320,14 +320,14 @@ export const Home = () => {
                                         <div className="card mb-3 cardBackground text-white border-5 icon-link-hover">
                                             <Row className='g-0'>
                                                 <Col xs={4} sm={4} lg={4}>
-                                                    <img src="../img/teresita.jpeg" className="img-fluid rounded-start" alt="..." />
+                                                    <img src="../img/santos/teresita.jpeg" className="img-fluid rounded-start" alt="..." />
                                                 </Col>
                                                 <Col xs={8} sm={8} lg={8}>
                                                     <div className="card-body">
                                                         <h5 className="card-title fw-bold">Santa teresita del niño jesús</h5>
                                                         <hr className="text-white-50" />
 
-                                                        <p className="card-text"><small className="text-white-50">1 de octubre</small></p>
+                                                        <p className="card-text"><small className="text-white-50">01 de octubre</small></p>
                                                     </div>
                                                 </Col>
                                             </Row>

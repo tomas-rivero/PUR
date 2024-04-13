@@ -15,7 +15,7 @@ export const NotFound = () => {
                                 <div className="contant_box_404">
                                     <h1 className="text-center fw-bold text-danger">Error 404</h1>
                                     <p className="fw-semibold">¡Uh, qué macana! Parece que te tomaste el colectivo equivocado en la web.<br />Tranca, mientras tanto te invitamos a chusmear otras partes del sitio. ¡Gracias por bancarnos, loco!</p>
-                                    <NavLink className="btn btn-dark" to='/' >Volver al inicio</NavLink>
+                                    <a className="btn btn-dark" href='/' >Volver al inicio</a>
                                 </div>
                             </div>
                         </div>

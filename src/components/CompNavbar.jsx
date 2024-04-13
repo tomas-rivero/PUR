@@ -15,7 +15,7 @@ export const CompNavbar = () => {
         <Navbar fixed="top" className={'fw-bolder navbarBackground ' + backgroundcolor} expand='sm' collapseOnSelect data-bs-theme="dark"  >
             <Container fluid>
 
-                <NavLink to="/">
+                <NavLink to="/" as={Link}>
                     <Navbar.Brand>
                         <img src="../img/iconPUR-lineas.png" alt="" width="30" height="30" />
                     </Navbar.Brand>
@@ -28,7 +28,7 @@ export const CompNavbar = () => {
 
                         <NavLink as={Link} eventKey="1" to='/' className="nav-link active">PUR</NavLink>
 
-                        <NavDropdown id="nav-dropdown-dark-example" title="Areas" menuVariant="dark">
+                        <NavDropdown id="nav-dropdown-dark-example" title="Áreas" menuVariant="dark">
                             <NavLink eventKey="2" as={Link} to='areas/sociales' className="nav-link navDropdown">Sociales</NavLink>
                             <NavLink eventKey="3" as={Link} to='areas/ecopuring' className="nav-link navDropdown">Ecopuring</NavLink>
                             <NavLink eventKey="4" as={Link} to='areas/arteydisenio' className="nav-link navDropdown">Arte y diseño</NavLink>
