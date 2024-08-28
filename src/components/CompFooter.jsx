@@ -25,7 +25,7 @@ export const CompFooter = () => {
                 viewport={{ once: false }}>
                 <Container>
                     <Row className="justify-content-md-center align-items-center text-center">
-                        <Col xs={3} className='fw-semibold'>
+                        <Col xs={12} sm={12} md={3} className='fw-semibold'>
                             <Row>
                                 <Col xs={4}>
                                     <a href="https://www.instagram.com/somospur/">
