@@ -22,7 +22,7 @@ export const Home = () => {
     }
 
     return (
-        <main>
+        <>
             <svg id="progress" width="50" height="50" viewBox="0 0 100 100">
                 <circle cx="50" cy="50" r="30" pathLength="1" className="bg" />
                 <motion.circle
@@ -109,7 +109,7 @@ export const Home = () => {
                         >
                             <section>
                                 <div className='containerDivPhotos'>
-                                    <img src="./img/todos.jpg" alt="" loading="lazy"/>
+                                    <img src="./img/todos.jpg" alt="" loading="lazy" />
                                     {/* <img src="./img/coordinacion.jpg" alt="" /> */}
                                 </div>
                             </section>
@@ -352,12 +352,12 @@ export const Home = () => {
                                 <section className='text-white text-center'>
                                     <h1 className='text-center pt-4'>¿Donde nos encontras?</h1>
                                     <p>En Córdoba 3169</p>
-                                  
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4735.322323040412!2d-60.667316501106924!3d-32.941014311369074!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab5a5e64313f%3A0x77b0ed343f271fee!2sPastoral%20Universitaria%20de%20Rosario!5e0!3m2!1ses-419!2sar!4v1707180965495!5m2!1ses-419!2sar" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-                            
+
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4735.322323040412!2d-60.667316501106924!3d-32.941014311369074!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab5a5e64313f%3A0x77b0ed343f271fee!2sPastoral%20Universitaria%20de%20Rosario!5e0!3m2!1ses-419!2sar!4v1707180965495!5m2!1ses-419!2sar" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+
 
                                 </section>
-                             </motion.div>
+                            </motion.div>
 
                         </Element>
 
@@ -378,7 +378,7 @@ export const Home = () => {
                 </motion.div >
             </div>
 
-        </main >
+        </>
 
     )
 }

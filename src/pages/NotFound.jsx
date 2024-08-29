@@ -1,6 +1,9 @@
-import { NavLink } from "react-router-dom"
+import { useRouteError } from "react-router-dom";
 
 export const NotFound = () => {
+
+    const error = useRouteError();
+
     return (
         <div>
             <section className="page_404">
@@ -8,7 +11,7 @@ export const NotFound = () => {
                     <div className="row justify-content-center align-items-center">
                         <div className="col-sm-12">
                             <div className="text-center">
-                                <img src="../img/logopur.png" alt=""/>
+                                <img src="../img/logopur.png" alt="" />
                                 <div className="four_zero_four_bg">
 
                                 </div>
