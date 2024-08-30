@@ -1,7 +1,7 @@
-import { createBrowserRouter } from "react-router-dom";
-import { Pantaleon, NotFound, Home, ManosalaObra } from "../pages"
 import { AyD, Ecopuring, Salud, Sociales } from "../pages/areas"
+import { createBrowserRouter } from "react-router-dom";
 import { LayoutPublic } from "../layout/layoutPublic";
+import { Pantaleon, NotFound, Home, ManosalaObra } from "../pages"
 
 export const router = createBrowserRouter([
     {
@@ -34,7 +34,7 @@ export const router = createBrowserRouter([
                 element: <Ecopuring />,
             },
             {
-                path: '/areas/arteydiseño',
+                path: '/areas/arteydisenio',
                 element: <AyD />,
             },
         ]

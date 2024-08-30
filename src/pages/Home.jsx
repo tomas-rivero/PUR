@@ -1,8 +1,7 @@
 import { Carousel, Col, Container, Ratio, Row } from 'react-bootstrap';
-import Button from 'react-bootstrap/Button';
 import { Element, Link } from 'react-scroll';
 import { motion, useScroll } from "framer-motion"
-
+import Button from 'react-bootstrap/Button';
 
 export const Home = () => {
 

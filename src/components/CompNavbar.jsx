@@ -1,7 +1,7 @@
-import Container from 'react-bootstrap/Container';
+import { Link } from 'react-router-dom';
 import { Nav, Navbar, NavLink, NavDropdown } from 'react-bootstrap';
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
 
 
 export const CompNavbar = () => {

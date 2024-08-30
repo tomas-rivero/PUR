@@ -1,5 +1,5 @@
-import { motion } from 'framer-motion';
 import { Container, Row, Col, Image } from 'react-bootstrap';
+import { motion } from 'framer-motion';
 
 export const CompFooter = () => {
     const boxVariant = {

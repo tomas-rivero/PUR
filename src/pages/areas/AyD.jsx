@@ -1,6 +1,6 @@
 import { Button, Col, Container, Row } from 'react-bootstrap'
-import { motion, useScroll } from "framer-motion"
 import { Link, Element } from 'react-scroll';
+import { motion, useScroll } from "framer-motion"
 
 export const AyD = () => {
 
@@ -76,7 +76,7 @@ export const AyD = () => {
 
                     <Container>
 
-                        <img className='svgSocialFloat' src="../img/areas/arteydisenio.svg" alt="" srcset="" width={700} />
+                        <img className='svgSocialFloat' src="../img/areas/arteydisenio.svg" alt="" srcSet="" width={700} />
 
                         <div className='text-center pt-5'>
                             <img width="30" height="30" src="../img/whiteRosary.png" alt="white-rosary" />
@@ -139,7 +139,7 @@ export const AyD = () => {
                                                         <h5 className="card-title fw-bold">Antoni Gaudí</h5>
                                                         <hr className="text-white-50" />
 
-                                                        <p className="card-text"><small className="text-white-50">-</small></p>
+                                                        <p className="card-text"><small className="text-white-50">10 de junio</small></p>
                                                     </div>
                                                 </Col>
                                             </Row>

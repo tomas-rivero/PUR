@@ -1,6 +1,6 @@
 import { Button, Col, Container, Row } from 'react-bootstrap'
-import { motion, useScroll } from "framer-motion"
 import { Link, Element } from 'react-scroll';
+import { motion, useScroll } from "framer-motion"
 
 export const Salud = () => {
 
@@ -72,7 +72,7 @@ export const Salud = () => {
 
                     <Container>
 
-                        <img className='svgSocialFloat' src="../img/areas/salud.svg" alt="" srcset="" width={700} />
+                        <img className='svgSocialFloat' src="../img/areas/salud.svg" alt="" srcSet="" width={700} />
 
                         <div className='text-center pt-5'>
                             <img width="30" height="30" src="../img/whiteRosary.png" alt="white-rosary" />

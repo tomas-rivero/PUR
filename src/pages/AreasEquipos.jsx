@@ -1,5 +1,5 @@
+import { Button, Col, Container, Modal, Ratio, Row } from 'react-bootstrap'
 import { useState } from 'react'
-import { Button, Carousel, Col, Container, Modal, Ratio, Row } from 'react-bootstrap'
 
 import { motion, useScroll } from "framer-motion"
 
@@ -141,7 +141,7 @@ export const AreasEquipos = () => {
 
 
                                                 <img src="../img/salud.jpg" className="card-img-top rounded-start" alt="..." />
-                                             
+
 
 
                                                 <div className="card-body">
