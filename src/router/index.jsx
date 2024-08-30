@@ -1,6 +1,6 @@
 import { AyD, Ecopuring, Salud, Sociales } from "../pages/areas"
 import { createBrowserRouter } from "react-router-dom";
-import { LayoutPublic } from "../layout/layoutPublic";
+import { LayoutPublic } from "../layout/LayoutPublic";
 import { Pantaleon, NotFound, Home, ManosalaObra } from "../pages"
 
 export const router = createBrowserRouter([
